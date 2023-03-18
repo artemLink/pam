@@ -9,14 +9,12 @@ chanel_id = '-1001903707986'
 bot_api_key = '6166438024:AAE0LQrn41MEZtfYo51Lte2eUW3EexXK9lU'
 
 bot = telebot.TeleBot(token=bot_api_key)
-with open('account', 'r') as file:
-    dt = file.readlines()
-    username = dt[0][:-1]
-    password = dt[1]
-    data = {
+
+data = {
         'username': username,
         'password': password
     }
+
 tmp = []
 
 
