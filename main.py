@@ -5,8 +5,8 @@ from bs4 import BeautifulSoup as bs
 
 login_url = 'https://www.tesmanian.com/account/login?return_url=%2Faccount'
 main_url = 'https://www.tesmanian.com'
-chanel_id = '-1001903707986'
-bot_api_key = '6166438024:AAE0LQrn41MEZtfYo51Lte2eUW3EexXK9lU'
+chanel_id = ''
+bot_api_key = ''
 
 bot = telebot.TeleBot(token=bot_api_key)
 
